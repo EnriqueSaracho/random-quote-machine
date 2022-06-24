@@ -1,12 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const text = document.getElementById("text");
+  const text = document.getElementById("text-span");
   const author = document.getElementById("author");
   const newQuote = document.getElementById("new-quote");
 
   const quotes = [
-    { quote: "first quote", author: "first author" },
-    { quote: "second quote", author: "first author" },
-    { quote: "third quote", author: "second author" },
+    { quote: "El miedo no anda en burro", author: "Mamá" },
+    { quote: "¿Que no podrá uno?", author: "Mamá" },
+    { quote: "Así la vida", author: "Mamá" },
+    { quote: "Háganse menos", author: "Mamá" },
+    { quote: "Ancina es", author: "Mamá" },
+    { quote: "Válgame dios", author: "Mamá" },
+    { quote: "En boca cerrada no entran moscas", author: "Mamá" },
+    { quote: "Será el sereno", author: "Mamá" },
+    { quote: "Vientos huracanados", author: "Mamá" },
+    { quote: "No le hace", author: "Papá" },
+    { quote: "El dolor del cochi", author: "Papá" },
+    { quote: "Levanta pelos", author: "Papá" },
+    { quote: "Apaga eso", author: "Papá" },
+    { quote: "Te va a pegar un viento", author: "Papá" },
+    { quote: "Ya duermete", author: "Papá" },
   ];
 
   let randomNumber = Math.floor(Math.random() * quotes.length);
