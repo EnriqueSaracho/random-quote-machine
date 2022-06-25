@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const text = document.getElementById("text-span");
-  const author = document.getElementById("author");
+  const author = document.getElementById("author-span");
   const newQuote = document.getElementById("new-quote");
 
   const quotes = [
